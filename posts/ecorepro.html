@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<!--[if IE 8 ]><html class="no-js oldie ie8" lang="en"> <![endif]-->
+<!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+
+   <!--- basic page needs
+   ================================================== -->
+   <meta charset="utf-8">
+	<title>Reproducibility in Ecology</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+   <!-- mobile specific metas
+   ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+ 	<!-- CSS
+   ================================================== -->
+   <link rel="stylesheet" href="../css/base.css">
+   <link rel="stylesheet" href="../css/vendor.css">
+   <link rel="stylesheet" href="../css/main.css">
+
+
+   <!-- script
+   ================================================== -->
+	<script src="../js/modernizr.js"></script>
+	<script src="../js/pace.min.js"></script>
+
+   <!-- favicons
+	================================================== -->
+	<link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+	<link rel="icon" href="../favicon.ico" type="image/x-icon">
+
+  <!-- Fonts
+  ================================================== -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Qahiri&display=swap" rel="stylesheet">
+</head>
+
+<body id="top">
+
+	<!-- header
+   ================================================== -->
+   <header class="short-header">
+
+     <div class="gradient-block"></div>
+
+    	<div class="row header-content">
+
+    		<div class="logo">
+ 	         <a href="../blog.html"></a>
+ 	      </div>
+
+ 	   	<nav id="main-nav-wrap">
+ 				<ul class="main-navigation sf-menu">
+ 					<!-- <li class="current"><a href="../blog.html" title="">Blog Home</a></li> -->
+           <li class="current">&nbsp;</li>
+           <li class="current" style="font-size:300%;font-family:Qahiri">Rishika's Thoughts</li>
+ 					<!--<li><a href="style-guide.html" title="">Styles</a></li>-->
+ 				</ul>
+ 			</nav> <!-- end main-nav-wrap -->
+
+ 			<div class="search-wrap">
+
+ 				<form role="search" method="get" class="search-form" action="#">
+ 					<label>
+ 						<span class="hide-content">Search for:</span>
+ 						<input type="search" class="search-field" placeholder="Type Your Keywords" value="" name="s" title="Search for:" autocomplete="off">
+ 					</label>
+ 					<input type="submit" class="search-submit" value="Search">
+ 				</form>
+
+ 				<a href="#" id="close-search" class="close-btn">Close</a>
+
+ 			</div> <!-- end search wrap -->
+
+ 			<div class="triggers">
+ 				<a class="search-trigger" href="#"><i class="fa fa-search"></i></a>
+ 				<a class="menu-toggle" href="#"><span>Menu</span></a>
+ 			</div> <!-- end triggers -->
+
+    	</div>
+
+   	</div>
+
+   </header> <!-- end header -->
+
+
+   <!-- content
+   ================================================== -->
+   <section id="content-wrap" class="blog-single">
+   	<div class="row">
+   		<div class="col-twelve">
+
+   			<article class="format-standard">
+
+   				<div class="content-media">
+						<div class="post-thumb">
+							<img src="../images/thumbs/eco.jpg">
+						</div>
+					</div>
+
+					<div class="primary-content">
+
+						<h1 class="page-title">Reproducibility in Ecology</h1>
+
+						<ul class="entry-meta">
+							<li class="date">October 25, 2018</li>
+							<li class="cat">Ecology, Meta-Science</li>
+						</ul>
+
+            <p dir="ltr" style="line-height: 2; text-align: justify; margin-top: 0pt; margin-bottom: 0pt;"><span style="font-size: 16px;"><span style="font-family: 'Times New Roman', Times, serif;"><strong>1 Introduction to the Reproducibility Crisis</strong></span></span></p>
+            <p dir="ltr" style="line-height: 2; text-align: justify; margin-top: 0pt; margin-bottom: 0pt;"><span style="font-size: 16px;"><span style="font-family: 'Times New Roman', Times, serif;">The replication crisis is believed to be an ongoing crisis of methodology in science. It is based on the observation that a large number of scientific studies across multiple fields have been found to be difficult or even impossible to replicate or reproduce. [1] As people of science in the 21st century where everyone is a master of photo editing apps and unproven hypotheses are used to spread misinformation using social media, it is almost sure that we will have to face the implications that this &ldquo;crisis&rdquo; brings with it. Some of us might already have seen the face of this struggle. Sometimes, even in the most deterministic of subjects like physics or computational neuroscience, this struggle leaves one baffled when even simple results from one&rsquo;s own lab cannot be replicated. There have been some historical cases where the outcomes of this crisis came to the front of the world such as Hideyo Noguchi&rsquo;s Syphilis Bacteria, University of Utah &ldquo;Cold Fusion&rdquo; Experiment, Telsa&rsquo;s Wireless Transmitter, MMR vaccine controversy (vaccine caused autism) - a historical case of fraud, the Faster-Than-Light Neutrinos and others.</span></span></p>
+            <p dir="ltr" style="line-height: 2; text-align: justify; margin-top: 0pt; margin-bottom: 0pt;"><span style="font-size: 16px;"><span style="font-family: 'Times New Roman', Times, serif;">The terms we use for this, i.e., &ldquo;reproducibility crisis&rdquo; and &ldquo;replication crisis&rdquo; has gained momentum in print and conversation only over the last decade [2], but this crisis has its roots in what we consider science itself and the problem lies in the way we do science. Karl Popper, one of the people responsible for our current philosophy of science, proposed repeatability as a critical tenet of what is correct in science. He said, &ldquo;non-reproducible single occurrences are of no significance to science.&rdquo; [3] Ronald Fisher, the man behind Hypothesis Testing- the foundation of modern science, said that &ldquo;we may say that a phenomenon is experimentally demonstrable when we know how to conduct an experiment which will rarely fail to give us statistically significant results.&rdquo; [4] Thus, if the data cannot be reproduced, well, it is not science.</span></span></p>
+            <p dir="ltr" style="line-height: 2; text-align: justify; margin-top: 0pt; margin-bottom: 0pt;"><span style="font-size: 16px;"><span style="font-family: 'Times New Roman', Times, serif;">The issues existed but they only came to notice recently as disappointing results emerged from large scale reproducibility projects in various medical, life, and behavioral sciences such as the Open Science Collaboration (2015) [5] and a recent survey by Nature (2016) [6] showed that 52% of over 1500 surveyed scientists agree that there is a severe reproducibility crisis and another 38% agreeing that there is such a crisis. The problem of reproducibility is neither a recent problem nor a dismissable one. There is an almost complete absence of studies aimed at validating and replicating published literature in many scientific fields despite the widespread failure to reproduce results. Up to 80% of Biologists and Chemists claimed in Nature 2016 survey [6] that they could not replicate someone else&rsquo;s results, and 60% could not even replicate their own results. It has been shown that there is also a very high prevalence of <span style="color: rgb(0, 0, 0); font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;">questionable research practices</span> and publication bias where most seemingly &quot;unimportant&quot; <span style="color: rgb(0, 0, 0); font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;">negative results</span> go unpublished, artificially increasing the rate of false positives in the literature. [7] There is also the problem of the lack of clarity and completeness in the reporting of methods, raw data, and data analysis. The prevalence of these issues of the way we do science has been well documented. [8]</span></span></p>
+            <p dir="ltr" style="line-height: 2; text-align: justify; margin-top: 0pt; margin-bottom: 0pt;"><span style="font-size: 16px;"><span style="font-family: 'Times New Roman', Times, serif;">The Nature (2016) survey [6] asked the question of what might be causing this crisis. Most of the scientists (more than 60%) believed that two major factors contribute to the reproducibility crisis - the pressure to publish and the process of selective reporting to suit one&rsquo;s hypothesis. More than half of the respondents think that these factors were also supplemented by other issues poor oversight and lack of checks against malpractice, insufficient replication attempts in the lab, or low statistical power. In 1977, Michael Mahoney showed confirmation bias thrives in peer review &ldquo;Confirmatory bias is the tendency to emphasize and believe experiences which support one&rsquo;s views and to ignore or discredit those which do not...reviewers were strongly biased against manuscripts which reported results contrary to their theoretical perspective.&rdquo; [9] Besides these reasons, few people also blamed the unavailability of code, specialized methods, and raw data, variability in reagents used, bad experiment design, fraud, insufficient peer review and some also suggested lousy luck to be a cause of the reproducibility crisis. [6]</span></span></p>
+            <p dir="ltr" style="line-height: 2; text-align: justify; margin-top: 0pt; margin-bottom: 0pt;"><span style="font-size: 16px;"><span style="font-family: 'Times New Roman', Times, serif;">Nevertheless, how do we address this problem? More than 50% of the scientists in the Nature survey agreed to some steps we could take: Better Understanding of Statistics, Better Mentoring, More robust Experimental Design, Better Teaching, More within-lab validation, Incentives for better practice, Incentives for publishing reproductions, More external-lab validation, Journal Enforcing Standards (in order of preference.) [6] There have already been a few steps in the right direction, but we are still a long way from the ideal world of replicable, reproducible sciences. Formal frameworks have been established for meta-analysis of clinical results and research articles. In 2016, the American Statistical Association (ASA) played its part and issued its first-ever guidelines in an attempt to stem the rising tide of misuse and misinterpretation of p-values in the field of research. [10] Many countries and institutions have started their projects to support the replication of the existing body of literature in various fields. With the &ldquo;reproducibility crisis&rdquo; on our hands, we need to try our best to prevent unwanted biases in the way we design, conduct, interpret, and report experiments and at the same time question what we already know and try to replicate it, no matter how hard it is. However, &lsquo;science&rdquo; is not scientific without all of that. [11]&nbsp;</span></span></p>
+            <p dir="ltr" style="line-height: 2; text-align: justify; margin-top: 0pt; margin-bottom: 0pt;"><span style="font-size: 16px;"><span style="font-family: 'Times New Roman', Times, serif;"><strong>2 Reproducibility Crisis in Ecology</strong></span></span></p>
+            <p dir="ltr" style="line-height: 2; text-align: justify; margin-top: 0pt; margin-bottom: 0pt;"><span style="font-size: 16px;"><span style="font-family: 'Times New Roman', Times, serif;">Now that we have discussed the crisis of &ldquo;reproducibility&rdquo; in science let us focus on one particular field, the field of ecology and evolutionary sciences. As per the methodology and philosophy of science, the field of Ecology has often been compared to the Social Sciences, both of which have seldom been tagged as Soft Sciences. [12] In the plethora of scientific fields, the field of Psychology is most plagued by the problems of reproducibility, and so it is not a surprise that Ecology too faces a lot of similar issues in making replicable and reproducible claims. [13] Ecology heavily relies on statistics, and as mentioned earlier, due to the problems of non-robust statistics and low statistical power, science is currently also facing a &ldquo;Statistical Crisis&rdquo; where statistically &ldquo;significant&rdquo; results do not hold up to reality. [14] People often are subject to the charm of questionable research practices (QRPs) to suit their hypotheses. [15] Rather than an unbiased analysis of the raw data, datasets are collected, keeping in mind the hypothesis which they desperately want to be accurate, so that they can get published in a &ldquo;High Impact Factor&rdquo; Journal. This leads to what one might call &ldquo;cherry-picking data&rdquo;.&nbsp;</span></span></p>
+            <p dir="ltr" style="line-height: 2; text-align: justify; margin-top: 0pt; margin-bottom: 0pt;"><span style="font-size: 16px;"><span style="font-family: 'Times New Roman', Times, serif;">There was an article published in PLoS One (2018) on the prevalence of QRPs in the field of Ecology. [15] A team of scientists (or one might lovingly call them meta-scientists) led by Hannah Fraser from the University of Melbourne surveyed around 500 ecologists and 300 evolutionary biologists. A primary cause of psychology&rsquo;s replication crisis was that researchers groomed raw data to make it look more appealing and closer to the results predicted. Shockingly, the survey found that 64% of surveyed researchers had at least once failed to report results because they were not statistically significant (a clear case of cherry-picking). &nbsp;Around 42% had collected more data after inspecting whether results were statistically significant, which is a well-known and infamous form of what is called p-hacking. P-hacking is the use of data mining to uncover apparent (or even possibly real) correlations that were not included in the original hypothesis and artificially inflating the significance via transformation not based on logic. A well-known consequence of p-hacking is that &ldquo;nonsignificant results become significant&rdquo;. [16] Moreover, 51 % reported an unexpected finding as if it had been the expected hypothesis from the start itself, a process known colloquially as HARKing. These malpractices have been directly linked to the low rates of reproducible results in psychology and other disciplines. Thus, a drive and incentive to ensure statistical honesty, and education and unbiased analysis can help alleviate the crisis. [16,17]</span></span></p>
+            <p dir="ltr" style="line-height: 2; text-align: justify; margin-top: 0pt; margin-bottom: 0pt;"><span style="font-size: 16px;"><span style="font-family: 'Times New Roman', Times, serif;">Fidler (2017) argues that in a few cases, the &ldquo;direct replication&rdquo; of research in ecology is due to strong spatial and temporal dependencies and proposes &ldquo;meta-research projects&rdquo; to provide indicative measures of reproducibility such as &ldquo;transferability&rdquo;. [18] Transferability is a form of inferential reproducibility where the raw data itself is not reproducible, but the general principle it predicts or the inference it makes is the same. A few recent studies in ecology have addressed this issue, such as Yates (2018) &quot;<span style="color: rgb(0, 0, 0); font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;">Review on Transferability</span> &quot; [19], Kleiven (2018) &quot;Seasonal Differences in an Ecological Model<span style="color: rgb(0, 0, 0); font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;">&quot;</span> [20], Soininen (2018) &quot;Temporal Transferability in Plant Rodent Interactions&quot; [21].&nbsp;</span></span></p>
+            <p dir="ltr" style="line-height: 2; text-align: justify; margin-top: 0pt; margin-bottom: 0pt;"><span style="font-size: 16px;"><span style="font-family: 'Times New Roman', Times, serif;">Another major problem that Ecology faces is that distinction is often not made between reproducibility among experiments and reproducibility within the same experiment. [22] Ecology has historicity and a large number of factors that affect the results. [12] Experiments conducted at slightly different times on different systems or with even slightly different methods can give dramatically different results. [12] Reproducibility within the same experiment can always be achievable by increasing sample sizes. Ives concludes in his article titled &ldquo;Informative Irreproducibility and the Use of Experiments in Ecology&rdquo; in BioSciences (2018) [22] that experiments in ecology must face judgment on the grounds of what they &nbsp;reveal to us about the &ldquo;system under study&rdquo; in &ldquo;a strict statistical way.&rdquo;</span></span></p>
+            <p dir="ltr" style="line-height: 2; text-align: justify; margin-top: 0pt; margin-bottom: 0pt;"><span style="font-size: 16px;"><span style="font-family: 'Times New Roman', Times, serif;">Furthermore, the judgment should be on whether the questions are &ldquo;ecologically interesting&rdquo; and may contribute &ldquo;qualitative insights into other systems.&ldquo; They definitely should not be judged on the reproducibility and &ldquo;quantitative statistical comparisons among experiments,&rdquo; primarily if the studies do not aim to make such a claim. [22] One must admit that ecology has many factors, all of which cannot always be controlled for, Context Matters. The knowledge we gain from differences in research outcome should be ascribed to changes in context, rather than a failure to replicate an earlier study. One must settle for a middle ground, a point where the collection and analysis are robust, not cherry-picked, and repeatable for the given conditions but may not be reproducible at another&rsquo;s hand because even such a result can direct us to general principles. All one has to do after that is a sleuths&rsquo; work of finding the real culprit (the general principle). [12]</span></span></p>
+            <p dir="ltr" style="line-height: 2; text-align: justify; margin-top: 0pt; margin-bottom: 0pt;"><span style="font-size: 16px;"><span style="font-family: 'Times New Roman', Times, serif;">Thus in the face of all these issues, we must remember a few things. As Schloss (2018) [23] puts it, at any point, we should consider as many factors as possible and avoid attributing issues with reproducibility, replicability, robustness, and generalizability to &ldquo;a dim view of our fellow scientists as being sloppy, biased, or untrustworthy.&rdquo; Beyond correctness, the aim should be to create work that future scientists can build upon. Moreover, remember there is much room for improvement, but we have to acknowledge that &ldquo;science is a process of learning and that it is really freaking hard.&rdquo;&nbsp;</span></span></p>
+            <p dir="ltr" style="line-height: 2; text-align: justify; margin-top: 0pt; margin-bottom: 0pt;"></p>
+            <p dir="ltr" style="line-height: 2; text-align: justify; margin-top: 0pt; margin-bottom: 0pt;"><span style="font-size: 16px;"><span style="font-family: 'Times New Roman', Times, serif;"><strong>References:</strong></span></span></p>
+            <p dir="ltr" style="line-height: 2; text-align: justify; margin-top: 0pt; margin-bottom: 0pt;"></p>
+            <p dir="ltr" style="line-height: 2; margin: 0pt 18pt 15pt 22.5pt; text-align: justify;"><span style="font-size: 16px;"><span style="font-family: 'Times New Roman', Times, serif;">[1] Peng, R. &nbsp;The reproducibility crisis in science: A statistical counterattack. Significance, 12: 30-32, <span style="color: rgb(0, 0, 0); font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;">(2015)</span>.</span></span></p>
+            <p dir="ltr" style="line-height: 2; margin: 0pt 18pt 15pt 22.5pt; text-align: justify;"><span style="font-size: 16px;"><span style="font-family: 'Times New Roman', Times, serif;">[2] Pashler, Harold, and Eric&ndash;Jan Wagenmakers. &quot;Editors&rsquo; introduction to the special section on replicability in psychological science: A crisis of confidence?.&quot; Perspectives on Psychological Science 7.6 (2012): 528-530.</span></span></p>
+            <p dir="ltr" style="line-height: 2; margin: 0pt 18pt 15pt 22.5pt; text-align: justify;"><span style="font-size: 16px;"><span style="font-family: 'Times New Roman', Times, serif;">[3] Popper, Karl. The logic of scientific discovery. Routledge, 2005.</span></span></p>
+            <p dir="ltr" style="line-height: 2; margin: 0pt 18pt 15pt 22.5pt; text-align: justify;"><span style="font-size: 16px;"><span style="font-family: 'Times New Roman', Times, serif;">[4] Fisher, Ronald A. &quot;The design of experiments.&quot; (1949).</span></span></p>
+            <p dir="ltr" style="line-height: 2; margin: 0pt 18pt 15pt 22.5pt; text-align: justify;"><span style="font-size: 16px;"><span style="font-family: 'Times New Roman', Times, serif;">[5] Open Science Collaboration. &quot;Estimating the reproducibility of psychological science.&quot; Science 349.6251 (2015): aac4716.</span></span></p>
+            <p dir="ltr" style="line-height: 2; margin: 0pt 18pt 15pt 22.5pt; text-align: justify;"><span style="font-size: 16px;"><span style="font-family: 'Times New Roman', Times, serif;">[6] Baker, Monya. &quot;1,500 scientists lift the lid on reproducibility.&quot; Nature News 533.7604 (2016): 452.</span></span></p>
+            <p dir="ltr" style="line-height: 2; margin: 0pt 18pt 15pt 22.5pt; text-align: justify;"><span style="font-size: 16px;"><span style="font-family: 'Times New Roman', Times, serif;">[7] Fidler, Fiona, and John Wilcox. &quot;Reproducibility of scientific results.&quot; (2018).</span></span></p>
+            <p dir="ltr" style="line-height: 2; margin: 0pt 18pt 15pt 22.5pt; text-align: justify;"><span style="font-size: 16px;"><span style="font-family: 'Times New Roman', Times, serif;">[8] Nuijten, Mich&egrave;le B., et al. &quot;The prevalence of statistical reporting errors in psychology (1985&ndash;2013).&quot; Behavior research methods 48.4 (2016): 1205-1226.</span></span></p>
+            <p dir="ltr" style="line-height: 2; margin: 0pt 18pt 15pt 22.5pt; text-align: justify;"><span style="font-size: 16px;"><span style="font-family: 'Times New Roman', Times, serif;">[9] Mahoney, Michael J. &quot;Publication prejudices: An experimental study of confirmatory bias in the peer review system.&quot; Cognitive therapy and research 1.2 (1977): 161-175.</span></span></p>
+            <p dir="ltr" style="line-height: 2; margin: 0pt 18pt 15pt 22.5pt; text-align: justify;"><span style="font-size: 16px;"><span style="font-family: 'Times New Roman', Times, serif;">[10] Wasserstein, Ronald L., and Nicole A. Lazar. &quot;The ASA&rsquo;s statement on p-values: context, process, and purpose.&quot; The American Statistician 70.2 (2016): 129-133.</span></span></p>
+            <p dir="ltr" style="line-height: 2; margin: 0pt 18pt 15pt 22.5pt; text-align: justify;"><span style="font-size: 16px;"><span style="font-family: 'Times New Roman', Times, serif;">[11] Bastian, Hilda. &quot;Reproducibility Crisis Timeline: Milestones in Tackling Research Reliability&quot;, Absolutely Maybe, Evidence and uncertainties about medicine and life. PLoS Blogs, 5 Dec. 2016. Web. 25 Oct. 2019.</span></span></p>
+            <p dir="ltr" style="line-height: 2; margin: 0pt 18pt 15pt 22.5pt; text-align: justify;"><span style="font-size: 16px;"><span style="font-family: 'Times New Roman', Times, serif;">[12] Pigliucci, Massimo. &quot;Are ecology and evolutionary biology&quot; soft&quot; sciences?.&quot; Annales Zoologici Fennici. Finnish Zoological and Botanical Publishing Board, 2002.&nbsp;</span></span></p>
+            <p dir="ltr" style="line-height: 2; margin: 0pt 18pt 15pt 22.5pt; text-align: justify;"><span style="font-size: 16px;"><span style="font-family: 'Times New Roman', Times, serif;">[13] Yoccoz, Nigel Gilles. &quot;The replication and reproducibility crises: origins and consequences for studies of ecology and evolution.&quot; Septentrio Conference Series. No. 1. 2018.</span></span></p>
+            <p dir="ltr" style="line-height: 2; margin: 0pt 18pt 15pt 22.5pt; text-align: justify;"><span style="font-size: 16px;"><span style="font-family: 'Times New Roman', Times, serif;">[14] Gelman, Andrew, and Eric Loken. &quot;The statistical crisis in science.&quot; The best writing on mathematics 2015 (2016): 305.</span></span></p>
+            <p dir="ltr" style="line-height: 2; margin: 0pt 18pt 15pt 22.5pt; text-align: justify;"><span style="font-size: 16px;"><span style="font-family: 'Times New Roman', Times, serif;">[15] Fraser, Hannah, et al. &quot;Questionable research practices in ecology and evolution.&quot; PloS one 13.7 (2018): e0200303.</span></span></p>
+            <p dir="ltr" style="line-height: 2; margin: 0pt 18pt 15pt 22.5pt; text-align: justify;"><span style="font-size: 16px;"><span style="font-family: 'Times New Roman', Times, serif;">[16] Head, Megan L., et al. &quot;The extent and consequences of p-hacking in science.&quot; PLoS biology 13.3 (2015): e1002106.</span></span></p>
+            <p dir="ltr" style="line-height: 2; margin: 0pt 18pt 15pt 22.5pt; text-align: justify;"><span style="font-size: 16px;"><span style="font-family: 'Times New Roman', Times, serif;">[17] Fisher, Ronald Aylmer. &quot;Statistical methods for research workers.&quot; Breakthroughs in statistics. Springer, New York, NY, 1992. 66-70.</span></span></p>
+            <p dir="ltr" style="line-height: 2; margin: 0pt 18pt 15pt 22.5pt; text-align: justify;"><span style="font-size: 16px;"><span style="font-family: 'Times New Roman', Times, serif;">[18] Fidler, Fiona, et al. &quot;Metaresearch for evaluating reproducibility in ecology and evolution.&quot; BioScience 67.3 (2017): 282-289.</span></span></p>
+            <p dir="ltr" style="line-height: 2; margin: 0pt 18pt 15pt 22.5pt; text-align: justify;"><span style="font-size: 16px;"><span style="font-family: 'Times New Roman', Times, serif;">[19] Yates, Katherine L., et al. &quot;Outstanding challenges in the transferability of ecological models.&quot; Trends in Ecology &amp; Evolution 33.10 (2018): 790-802.</span></span></p>
+            <p dir="ltr" style="line-height: 2; margin: 0pt 18pt 15pt 22.5pt; text-align: justify;"><span style="font-size: 16px;"><span style="font-family: 'Times New Roman', Times, serif;">[20] Kleiven, Eivind Flittie, et al. &quot;Seasonal difference in temporal transferability of an ecological model: near-term predictions of lemming outbreak abundances.&quot; Scientific reports 8.1 (2018): 15252.</span></span></p>
+            <p dir="ltr" style="line-height: 2; margin: 0pt 18pt 15pt 22.5pt; text-align: justify;"><span style="font-size: 16px;"><span style="font-family: 'Times New Roman', Times, serif;">[21] Soininen, Eeva M., et al. &quot;Transferability of biotic interactions: Temporal consistency of arctic plant&ndash;rodent relationships is poor.&quot; Ecology and Evolution 8.19 (2018): 9697-9711.</span></span></p>
+            <p dir="ltr" style="line-height: 2; margin: 0pt 18pt 15pt 22.5pt; text-align: justify;"><span style="font-size: 16px;"><span style="font-family: 'Times New Roman', Times, serif;">[22] Ives, Anthony R. &quot;Informative Irreproducibility and the Use of Experiments in Ecology.&quot; BioScience 68.10 (2018): 746-747.</span></span></p>
+            <p dir="ltr" style="line-height: 2; margin: 0pt 18pt 15pt 22.5pt; text-align: justify;"><span style='font-family: "Times New Roman", Times, serif; font-size: 16px;'>[23] Schloss, Patrick D. &quot;Identifying and overcoming threats to reproducibility, replicability, robustness, and generalizability in microbiome research.&quot; MBio 9.3 (2018): e00525-18.</span></p>
+
+
+		  			   <div class="author-profile">
+		  			   	<img src="../images/profile.jpg" alt="">
+
+		  			   	<div class="about">
+		  			   		<h4><a href="#">Rishika Mohanta</a></h4>
+
+		  			   		<p dir="ltr" style="line-height: 2; text-align: justify; margin-top: 0pt; margin-bottom: 0pt;">Rishika (She/her) identifies as a pan-romantic trans woman and is an active researcher in the field of neuroscience and a student at IISER Pune. She is an aspiring queer/trans activist and an intersectional feminist. Find out more about her on Twitter @NeuroRishika.
+		  			   		</p>
+
+		  			   		<ul class="author-social">
+						        	<li><a href="https://twitter.com/neurorishika">Twitter</a></li>
+						        	<li><a href="https://www.instagram.com/neurorishika">Instagram</i></a></li>
+		  			   		</ul>
+		  			   	</div>
+		  			   </div> <!-- end author-profile -->
+
+				</article>
+
+
+			</div> <!-- end col-twelve -->
+   	</div> <!-- end row -->
+   </section> <!-- end content -->
+
+
+   <!-- footer
+   ================================================== -->
+   <footer>
+
+    <div class="footer-bottom">
+      <div class="row">
+
+        <div class="col-twelve">
+          <div class="copyright">
+            <span>© Copyright</span>
+            <span>&#9825; by <a href="http://www.styleshout.com/">styleshout</a> and <a href="https://neurorishika.github.io/">neurorishika</a></span>
+           </div>
+
+           <div id="go-top">
+              <a class="smoothscroll" title="Back to Top" href="#top"><i class="icon icon-arrow-up"></i></a>
+           </div>
+        </div>
+
+      </div>
+    </div>
+
+   </footer>
+
+   <div id="preloader">
+    	<div id="loader"></div>
+   </div>
+
+   <!-- Java Script
+   ================================================== -->
+   <script src="../js/jquery-2.1.3.min.js"></script>
+   <script src="../js/plugins.js"></script>
+   <script src="../js/main.js"></script>
+
+</body>
+
+</html>
