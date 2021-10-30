@@ -68,11 +68,11 @@ body {
 }
 
 body {
-	background: #f5f5f5;
+	background: rgb(31, 32, 32);/*#f5f5f5;*/
 	font-family: "roboto-regular", sans-serif;
 	font-size: 1.7rem;
 	line-height: 3rem;
-	color: #111111;
+	color: rgb(218, 216, 214);/*#111111;*/
 }
 
 /* -------------------------------------------------------------------
@@ -101,7 +101,7 @@ a:focus {
  * ------------------------------------------------------------------- */
 h1, h2, h3, h4, h5, h6, .h01, .h02, .h03, .h04, .h05, .h06 {
 	font-family: "montserrat-bold", sans-serif;
-	color: #151515;
+	color: rgb(218, 216, 214); /*#151515;*/
 	font-style: normal;
 	text-rendering: optimizeLegibility;
 	margin-bottom: 2.1rem;
@@ -1181,7 +1181,7 @@ input::-moz-focus-inner {
 
 .bricks-wrapper .entry-text {
 	padding: 1.8rem 2.8rem 3.6rem;
-	background-color: white;
+	background-color: rgb(25, 26, 26);/*white;*/
 }
 
 .bricks-wrapper .entry-header .entry-title {
@@ -1191,7 +1191,7 @@ input::-moz-focus-inner {
 }
 .bricks-wrapper .entry-header .entry-title a,
 .bricks-wrapper .entry-header .entry-title a:visited {
-	color: #000000;
+	color: rgb(231, 230, 229); /*#000000;*/
 }
 
 .bricks-wrapper .entry-header .entry-meta {
@@ -1201,7 +1201,7 @@ input::-moz-focus-inner {
 }
 .bricks-wrapper .entry-header .entry-meta a,
 .bricks-wrapper .entry-header .entry-meta a:visited {
-	color: #000000;
+	color: rgb(231, 230, 229); /*#000000;*/
 }
 
 .bricks-wrapper .entry-header .cat-links a::after {
@@ -1436,6 +1436,7 @@ input::-moz-focus-inner {
 .format-link .entry-thumb {
 	display: table;
 	background: #FFFFFF;
+	/* background: rgb(25, 26, 26); */
 	padding: 1.8rem 2.8rem 3rem;
 	min-height: 324px;
 	width: 100%;
@@ -1554,10 +1555,10 @@ input::-moz-focus-inner {
  * ------------------------------------------------------------------- */
 header {
 	width: 100%;
-	background: #DBDBDB url(../images/escheresque_@2X.png) repeat;
-	background-size: 46px 29px;
+	/* background: #DBDBDB url(../images/escheresque_@2X.png) repeat; */
+	/* background-size: 46px 29px; */
 	height: 130px;
-	border-bottom: 1px solid #E5E5E5;
+	/* border-bottom: 1px solid #E5E5E5; */
 }
 header .header-content {
 	height: auto;
@@ -1651,7 +1652,8 @@ header .logo a {
 .triggers .search-trigger {
 	display: inline-block;
 	font-size: 17px;
-	color: #000000;
+	/* color: #000000; */
+	color: rgb(231, 230, 229);
 }
 
 .triggers .menu-toggle {
@@ -1729,8 +1731,8 @@ header .logo a {
 }
 
 .main-navigation li.current > a {
-	border-bottom: 2px solid #151515;
-	color: #000000;
+	border-bottom: 2px solid rgb(231, 230, 229);
+	color: rgb(231, 230, 229);
 	font-family: "montserrat-bold", sans-serif;
 }
 
@@ -2465,7 +2467,8 @@ footer {
 }
 footer a,
 footer a:visited {
-	color: #000000;
+	/* color: #000000; */
+	color: rgb(231, 230, 229);
 }
 
 footer [class*="col-"] {
@@ -2701,7 +2704,7 @@ footer ul li {
 }
 .blog-single .entry-meta a,
 .blog-single .entry-meta a:visited {
-	color: #000000;
+	color: rgb(231, 230, 229)/*#000000;*/
 }
 
 .blog-single .entry-meta li {
@@ -2753,7 +2756,7 @@ footer ul li {
 
 .blog-single .author-profile a,
 .blog-single .author-profile a:visited {
-	color: #000000;
+	color: rgb(231, 230, 229)/*#000000;*/
 }
 
 .blog-single .author-profile img {
